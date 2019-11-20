@@ -39,20 +39,17 @@
             <activity
                 android:name="com.jumio.bam.BamActivity"
                 android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-                android:hardwareAccelerated="true"
-                android:theme="@style/AppTheme" />
+                android:hardwareAccelerated="true" />
             <activity
                 android:name="com.jumio.nv.NetverifyActivity"
                 android:windowSoftInputMode="adjustResize"
                 android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-                android:hardwareAccelerated="true"
-                android:theme="@style/AppTheme"/>
+                android:hardwareAccelerated="true" />
             <activity
                 android:name="com.jumio.dv.DocumentVerificationActivity"
                 android:windowSoftInputMode="adjustResize"
                 android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-                android:hardwareAccelerated="true"
-                android:theme="@style/AppTheme"/>
+                android:hardwareAccelerated="true" />
         </config-file>
         <config-file target="config.xml" parent="/*">
             <feature name="JumioMobileSDK">
