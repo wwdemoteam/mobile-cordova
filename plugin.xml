@@ -28,6 +28,7 @@
     </platform>
     
     <platform name="android">
+	<framework src="build.gradle" custom="true" type="gradleReference" />
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
             <uses-permission android:name="android.permission.INTERNET"/>
