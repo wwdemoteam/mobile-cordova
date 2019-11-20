@@ -28,7 +28,7 @@
     </platform>
     
     <platform name="android">
-	<framework src="build.gradle" custom="true" type="gradleReference" />
+	<dependency id="mobile-sdk-android" url="https://github.com/Jumio/mobile-sdk-android.git" version="2.12.0"/>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
             <uses-permission android:name="android.permission.INTERNET"/>
