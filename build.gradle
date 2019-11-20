@@ -3,7 +3,3 @@ repositories {
 	jcenter()
 	maven { url 'https://mobile-sdk.jumio.com' }
 }
-
-dependencies {
-    implementation 'com.jumio.android:jumio.mobile.sdk.android:2.12.0'
-} 
